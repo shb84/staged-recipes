@@ -21,8 +21,10 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - orjson >=3.9
     - numpy >=1.22
+    - orjson >=3.9
+    - jsonpointer >=2.4
+    - jsonschema >=4.22
 
 test:
   imports:
